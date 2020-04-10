@@ -1,5 +1,12 @@
+
 h1 {
     color: #3300cc;
+    font-size:30pt;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h3 {
+    color:#3300cc;
+    font-size:15pt;
 }
 footer{
     font-size: 10pt;
@@ -21,4 +28,25 @@ a:active{
 }
 a {text-decoration: none;
     font-size:10pt
+}
+li{
+   font-family: Arial, Helvetica, sans-serif;
+    color:color:#4d8076
+}
+li:first-child {color:#4d8076;
+}
+
+li:last-child {color:#7a6697;
+}
+.
+.skills{
+    color:#65baa9
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    float: right; 
+    margin: 0 1em 1em 1em;
+    padding: 0 .5em .5em .5em;
 }

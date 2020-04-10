@@ -1,3 +1,24 @@
 h1 {
     color: #3300cc;
 }
+footer{
+    font-size: 10pt;
+}
+a:link {
+    color:mediumblue
+}
+a:hover{
+    color:orange
+    }
+a:focus{
+    color:mediumblue
+}
+a:visited{
+    color:mediumpurple
+}
+a:active{
+    color:red
+}
+a {text-decoration: none;
+    font-size:10pt
+}

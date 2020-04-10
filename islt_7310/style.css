@@ -29,14 +29,11 @@ a:active{
 a {text-decoration: none;
     font-size:10pt
 }
-li{
+div ul{
    font-family: Arial, Helvetica, sans-serif;
     color:#4d8076;
 }
-li:first-child {color:#4d8076;
-}
-
-li:last-child {color:#7a6697;
+div li:last-child {color:#7a6697;
 }
 
 p{

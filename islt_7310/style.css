@@ -11,7 +11,11 @@ h1 {
     text-align: center;
     padding: 5px 0px 2px 0px
 }
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+}
 h3 {
+    font-family:Arial, Helvetica, sans-serif;
     color:#3300cc;
     font-size:15pt;
 }

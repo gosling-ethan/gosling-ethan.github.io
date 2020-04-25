@@ -1,56 +1,103 @@
-nav ul{
-    padding:0;
-    margin:0;
-}
-nav{
+nav {
     width:100%;
-    height:60px;
+}
+nav a:link, nav a:visited {
+    color:mediumblue;
     background-color: #fafafa;
-    
+}
+nav a:focus, nav a:hover {
+    background-color: #a9a9a9;
+    color:#fff;
+}
+nav a:active{
+    color:#fff;
+    background-color: #696969;
 }
 
+#hamburger {
+    display: none;
+}
 
-nav ul li{
-    float:left;
-    list-style:none;
-    position:relative;
-    width:150px;
-    height: 60px;
-    background-color:#fafafa;
-    padding:3px;
-    text-align: center;
-    
+nav {
+    top: 0px;   
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 .dropdown{
     display: none
 }
-nav ul li:hover ul{
-    display: block;   
+nav>ul li {
+    position: relative; 
+    text-align: center;
+    color: mediumblue;
+    float: left;
 }
-nav ul li a{
-    display: block;
-    padding:22px 014px;
+nav a {
     text-decoration: none;
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    width: 150px; 
+    margin: 2px;
 }
 
-nav a:hover{
+nav ul>li ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+nav ul ul li {
+    float:none;
+}
+
+nav>ul>li:hover>ul{
     display: block;
-    background-color:#a9a9a9; 
 }
-
-nav ul li a:hover{
-    color:#fff;
+@media only screen and (max-width: 640px) {
+	header {
+		position: relative;
+        height: 60px;
+        display: block;
+        background-color: #a9a9a9;
+        width: 100%;        
+    }
+	#hamburger {
+		display: inline-block;
+        padding-left: 20px;
+        width: 25px;
+        float: left;
+        font-size: 4em;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px 20px 20px 0px;
+		top: 20px;
+			}
+	nav:hover ul {
+		display: block;
+	}
+    	nav:hover .dropdown {
+		display: none;
+	}
+	nav li {
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+    nav>ul li {
+    text-align: left;
+    color: #fff;
+    float: left;
 }
-nav ul li a:link{
-    color:mediumblue;
-}
-nav ul li a:focus{
-    color:mediumblue;
-}
-nav a:visited{
-    color:mediumblue;
-}
-nav ul li a:active{
-    color:#fff;
-   background-color:#696969;
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    border-top: none;
+    border-bottom: none;
+    padding: 15px 15px 15px 35px;
+    width: 240px;
+    margin-bottom: 2px;
 }

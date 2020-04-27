@@ -26,7 +26,23 @@ Tested:  April 12, 2020; Passed on Firefox and Chrome browsers.
          <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link rel="nav stylesheet" href="nav.css">
-   
+   <style> 
+       div{
+           z-index: -1;
+           float: left;
+           width:100%;
+           text-align: center;
+           align-content: center;
+           border:1px solid #000;
+           padding:5px;
+           margin: 5px;
+           margin-top: 50px;
+           margin-bottom: 25px;
+           position:relative;
+           box-shadow:4px 4px 5px #000;
+       }
+    </style>
+        
     </head>
 <body>
    <header><h1>Contact</h1>
@@ -48,21 +64,21 @@ Tested:  April 12, 2020; Passed on Firefox and Chrome browsers.
         </ul>
     </nav>
         </header>
-    <br/>
+   <br/>
     <main> 
-        <div class="flex-container">
-            <div>
-     <h3>Name:</h3> 
-        </div>
-            <div> 
-    <h3>Phone Number:</h3>
-
-       </div> 
-            <div>
-            <h3>Message:</h3>
-          </div>
-            </div>
-    </main>
+        <div>
+       <form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Type"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Type"><br><br>
+<label for="email">Email Address:</label><br>
+  <input type="text" id="email" name="email" value="Type"><br><br>
+<label for="lname">Message:</label><br>
+  <input type="text" id="message" name="message" value="Type"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+          </div>  
     <br>
     <footer>
         <p>Created by Ethan Gosling &copy; 2020 | <a href="mailto:ewgbcc@mail.missouri.edu">ewgbcc@mail.missouri.edu</a></p>

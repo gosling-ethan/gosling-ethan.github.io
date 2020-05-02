@@ -15,29 +15,59 @@ School/Term:  Mizzou, Spring 2020
 
 Developed: April 4, 2020
 
-Tested:  April 11, 2020; Passed on Firefox and Chrome browsers.
+Tested:  April 26, 2020; Passed on Firefox and Chrome browsers.
 
 ******************************************************************************
 
 -->
+        <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
         <title>Home</title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.typekit.net/opa6ujb.css">   
         <link rel="stylesheet" href="style.css">
+        <link rel="nav stylesheet" href="nav.css">
     </head>
 <body>
-    <header><h1>ETHAN GOSLING</h1></header>
-    <img src=images/portrait.png alt="Ethan Gosling">
-   <h2>Welcome to my Website!</h2>
+    
+   
+    <header><h1>ETHAN GOSLING</h1>
+        <nav>
+            <label id="hamburger">&#9776;</label>
+    <ul>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="accomplishments.html">Accomplishments</a></li>
+        <li><a href="#experience.html">Experience</a>
+            <ul class="dropdown">
+        <li><a href="#">Project 1</a></li>
+        <li><a href="#">Project 2</a></li>
+        <li><a href="#">Project 3</a></li>
+                </ul>
+        </li>
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+        </header>
+
     <main>
-   <h3>About Me</h3>
-    <p>My name is Ethan Gosling. I have worked as a Technology Specialist for Hillsboro R-3 School District for the past 5 years and I also coach Cross Country and Track. Coaching people and working with technology quickly became my passion. Getting experience to interact with the students and educators by realizing the impact I could make in their life was invigorating. Technology is ever changing and I am motivated to keep up with the fast-pace. My goal is to become a leader and motivator for everyone I can. 
+    <section id="about">
+    <img class=portrait src=images/portrait.png alt="Ethan Gosling">
+        <br/>
+        <br/>
+   <h2>Welcome to my Website!</h2>
+        <h3>About Me</h3>
+    <p class="indent">My name is Ethan Gosling. I have worked as a Technology Specialist for Hillsboro R-3 School District for the past 5 years and I also coach Cross Country and Track. Coaching people and working with technology quickly became my passion. Getting experience to interact with the students and educators by realizing the impact I could make in their life was invigorating. Technology is ever changing and I am motivated to keep up with the fast-pace. My goal is to become a leader and motivator for everyone I can. 
 </p> 
     <blockquote><p>“If it doesn’t challenge you, it won’t change you.”
     <br>-Fred Devito</p></blockquote>
-
-   
+    </section>
+    
+        <div class="flex-container">
+            <div class="education">
      <h3>Education</h3> 
-   <div>  
+   
 <ul>
 <li class="new"><strong>University of Missouri Columbia /</strong><br>
     Masters of Science Learning Technologies and Design / Technology in Schools Emphasis<br>
@@ -48,7 +78,8 @@ Tested:  April 11, 2020; Passed on Firefox and Chrome browsers.
     <small>August 2008 - December 2013</small>
     </li>
 </ul>
-    
+        </div>
+            <div class="experiance"> 
     <h3>Experiance</h3>
 <p>The work I've done has molded me into the person I am today. I strive to educated those who need help understanding the role of technology. </p>
     <ul>  
@@ -60,21 +91,24 @@ Tested:  April 11, 2020; Passed on Firefox and Chrome browsers.
 </li>
     </ul>
        </div> 
-    <h3>Career Skills</h3>
+            <div class="career">
+            <h3>Career Skills</h3>
     <ul class="new">
          <li>Leadership</li>
         <li>Professionalism</li>
          <li>Networking</li>
-         <li>Deticated</li>
+         <li>Dedicated</li>
          <li>Teamwork</li>
          <li>Planning</li>
         
     </ul>
+          </div>
+            </div>
     </main>
-    
+   
      <footer>
-        <p>Created by Ethan Gosling &copy; 2020 | <a href="mailto:ewgbcc@mail.missouri.edu">ewgbcc@mail.missouri.edu</a></p>
+        <p>Created by Ethan Gosling &copy; 2020 |<img class="footer" src="images/phone.png" alt="" width="20"> 1-234-567-8910 <img class="footer" src="images/email.png" alt="" width="22"> 
+            <a href="mailto:ewgbcc@mail.missouri.edu">ewgbcc@mail.missouri.edu</a></p>
      </footer>
-    
 </body>
 </html>

@@ -30,6 +30,7 @@ nav a:active{
 nav {
     top: 0px;
     width:100%;
+    background-color: #fafafa;
   
 }
 nav ul {
@@ -38,7 +39,8 @@ nav ul {
     padding: 0;
 }
 .dropdown{
-    display: none
+    display: none;
+    background-color: #fafafa;   
 }
 nav>ul li {
     position: relative; 

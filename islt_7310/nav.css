@@ -5,11 +5,10 @@ Use: Style webpages
 Author: Ethan Gosling
 School/Term: University of Missouri, Spring 2020
 Developed: April 20, 2020
-Tested: May 3, 2020; Passed on Chrome and Firefox browers.
+Tested: May 8, 2020; Passed on Chrome and Firefox browers.
 ************************************
 */
 
-}
 nav a:link, nav a:visited {
     color:mediumblue;
     background-color: #fafafa;

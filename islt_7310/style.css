@@ -5,7 +5,7 @@ Use: Style webpages
 Author: Ethan Gosling
 School/Term: University of Missouri, Spring 2020
 Developed: April 4, 2020
-Tested: May 3, 2020; Passed on Chrome and Firefox browers.
+Tested: May 8, 2020; Passed on Chrome and Firefox browers.
 ************************************
 */
 
@@ -173,7 +173,6 @@ th, td {
   padding: 15px;
 align-content: center;
 }
-    }
 table tr:nth-child(even) {
   background-color: #eee;
 }
@@ -205,9 +204,6 @@ nav{
   font-size: 14px;
     box-shadow:4px 4px 5px #000;
     padding:1em;
-}
-{
-  box-sizing: border-box;
 }
 /* form */
 form{

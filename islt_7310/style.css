@@ -40,7 +40,7 @@ footer{
     border-top: 1px solid #000000;
     padding:5px;
     clear:both;
-    background-image: url(images/footer.png)
+  
 }
 
  footer a:link {
@@ -159,7 +159,33 @@ div h2{
 .indent{
     text-indent: 50px;
 }
-
+table {
+        width:100%;
+        box-shadow:4px 4px 5px #000;
+        border:.5px solid #000;
+        margin-bottom: 1.5em;
+        font-family:Arial, Helvetica, sans-serif;
+}
+table, th, td {
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+align-content: center;
+}
+    }
+table tr:nth-child(even) {
+  background-color: #eee;
+}
+table tr:nth-child(odd) {
+ background-color: aliceblue;
+}
+table th {
+  color: #000;
+}
+    td{
+        text-align: center;
+    }
 nav{
     width:100%;
 }
@@ -180,6 +206,41 @@ nav{
     box-shadow:4px 4px 5px #000;
     padding:1em;
 }
+{
+  box-sizing: border-box;
+}
+/* form */
+form{
+    max-width: 400px;
+    margin:auto;
+    padding:20px;
+}
+input[type=text], select, textarea {
+    width:100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+    float:left;
+}
+
+input[type=submit] {
+  background-color: #a9a9a9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=submit]:hover {
+  background-color: #696969;
+}
+
 
 @media screen and (max-width:959px){
     html{
@@ -194,6 +255,10 @@ nav{
     div h2{
     font-size:130%;
 }
+    figcaption {
+       text-align: left;
+    }
+   
     h3{
         font-size:125%;
     }
@@ -202,7 +267,29 @@ nav{
     font-size: 30px;
     color:green
 }
-
+table{
+        display:block;
+    width:70%;
+    text-align: center;
+    margin-left: 4em;
+    } 
+    table thead{
+        display:block;
+       
+    }
+    table .group2{
+        display: none;
+    }
+    table th{
+        display:block;
+         position: relative;
+    }
+    table td{
+        display: block;
+         position: relative;
+    }
+    
+    
 }
 @media print {
      
@@ -242,6 +329,7 @@ nav{
    box-shadow:none;
 
 }
+    
 div .experience {
    display:none;
 

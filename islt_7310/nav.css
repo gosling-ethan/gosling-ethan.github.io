@@ -78,6 +78,7 @@ nav>ul>li:hover>ul{
     }
     nav{
         position: relative;
+        background-color: #fafafa;
     }
 	#hamburger {
 		display: inline-block;
@@ -94,6 +95,7 @@ nav>ul>li:hover>ul{
 			}
 	nav:hover ul {
 		display: block;
+        background-color: #fafafa;
 	}
     nav:hover .dropdown {
 		display: none;

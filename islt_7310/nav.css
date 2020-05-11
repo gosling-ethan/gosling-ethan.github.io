@@ -14,12 +14,12 @@ nav a:link, nav a:visited {
     background-color: #f1f1f1;
 }
 nav a:focus, nav a:hover {
-    background-color: #a9a9a9;
+    background-color: #696969;
     color:#fff;
 }
 nav a:active{
     color:#fff;
-    background-color: #696969;
+    background-color: #000;
 }
 
 #hamburger {
@@ -75,7 +75,7 @@ nav>ul>li:hover>ul{
 		position: relative;
         height: 60px;
         display: block;
-        background-color: #a9a9a9;
+        background-color: #696969;
         width: 100%;        
     }
     nav{

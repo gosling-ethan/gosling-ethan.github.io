@@ -11,7 +11,7 @@ Tested: May 8, 2020; Passed on Chrome and Firefox browers.
 
 nav a:link, nav a:visited {
     color:mediumblue;
-    background-color: #fafafa;
+    background-color: #f1f1f1;
 }
 nav a:focus, nav a:hover {
     background-color: #a9a9a9;
@@ -29,7 +29,7 @@ nav a:active{
 nav {
     top: 0px;
     width:100%;
-    background-color: #fafafa;
+    background-color: #f1f1f1;
   
 }
 nav ul {
@@ -39,13 +39,15 @@ nav ul {
 }
 .dropdown{
     display: none;
-    background-color: #fafafa;   
+    background-color: #f1f1f1;   
 }
 nav>ul li {
     position: relative; 
     text-align: center;
     color: mediumblue;
-    float: left;
+    display:inline-block;
+    text-align: center;
+    font-weight: bold;
 }
 nav a {
     text-decoration: none;
@@ -77,7 +79,7 @@ nav>ul>li:hover>ul{
     }
     nav{
         position: relative;
-        background-color: #fafafa;
+        background-color: #f1f1f1;
     }
 	#hamburger {
 		display: inline-block;
@@ -94,7 +96,7 @@ nav>ul>li:hover>ul{
 			}
 	nav:hover ul {
 		display: block;
-        background-color: #fafafa;
+        background-color: #f1f1f1;
 	}
     nav:hover .dropdown {
 		display: none;
